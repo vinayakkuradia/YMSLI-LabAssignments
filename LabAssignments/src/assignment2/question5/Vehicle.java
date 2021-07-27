@@ -4,7 +4,13 @@ public class Vehicle {
 	int noOfWheel, noOfPassenger, model;
 	String make;
 	
-
+	Vehicle(String make, int model, int noOfWheel, int noOfPassenger){
+		this.make = make;
+		this.model = model;
+		this.noOfWheel = noOfWheel;
+		this.noOfPassenger = noOfPassenger;
+	}
+	
 	int getNoOfWheel() {
 		return noOfWheel;
 	}
@@ -54,7 +60,9 @@ public class Vehicle {
 
 
 	public void display() {
-		System.out.println(getMake()+": "+getModel());
+		System.out.println("--------------------");
+		System.out.println(getMake()+" - "+getModel());
+		System.out.println("--------------------");
 		System.out.println("No. of Wheels: "+ getNoOfWheel());
 		System.out.println("No. of Passengers: "+ getNoOfPassenger());
 	}

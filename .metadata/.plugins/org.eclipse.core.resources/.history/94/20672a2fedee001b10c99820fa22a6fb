@@ -1,0 +1,63 @@
+package assignment2.question5;
+
+import java.util.Scanner;
+
+public class Application {
+	
+	private static Vehicle askVehicleDetails() {
+		Scanner sc = new Scanner(System.in);
+		int noOfWheel, noOfPassenger, model;
+		String make;
+		make = sc.next();
+		model = sc.nextInt();
+		noOfWheel = sc.nextInt();
+		noOfPassenger = sc.nextInt();
+		sc.close();
+		return new Vehicle(make, model, noOfWheel, noOfPassenger);
+	}
+	
+	private static Car askCarDetails() {
+		Scanner sc = new Scanner(System.in);
+		int noOfWheel, noOfPassenger, model, noOfDoor;
+		String make;
+		make = sc.next();
+		model = sc.nextInt();
+		noOfWheel = sc.nextInt();
+		noOfPassenger = sc.nextInt();
+		noOfDoor = sc.nextInt();
+		sc.close();
+		return new Car(make, model, noOfWheel, noOfPassenger, noOfDoor);
+	}
+	
+	
+	
+	public static void main(String[] args) {
+		Scanner input = new Scanner(System.in);
+		System.out.println("Please enter you choice: ");
+		System.out.println("1.Vehicle 2.Car 3.Convertible 4.SportCar");
+
+		Vehicle v;
+
+		switch (input.nextInt()) {
+		case 1:
+			v = askVehicleDetails();
+			v.display();
+			break;
+		case 2:
+			v = new Car();
+			v.display();
+			break;
+		case 3:
+			v = new Convertible();
+			v.display();
+			break;
+		case 4:
+			v = new SportCar();
+			v.display();
+			break;
+		}
+
+		input.close();
+	}
+
+}
