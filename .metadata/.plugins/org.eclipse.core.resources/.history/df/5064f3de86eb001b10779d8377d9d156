@@ -1,0 +1,10 @@
+package my.day3.session1;
+
+public class Boxes {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

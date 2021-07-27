@@ -1,0 +1,9 @@
+package my.day3.session1;
+
+public class DemoInh {
+
+	public static void main(String[] args) {
+		System.out.println("ss");
+	}
+
+}

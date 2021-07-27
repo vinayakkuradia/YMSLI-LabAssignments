@@ -1,0 +1,10 @@
+package oops;
+
+public class AccountTest {
+
+	public static void main(String[] args) {
+		Account ac1 = new Account();
+
+	}
+
+}

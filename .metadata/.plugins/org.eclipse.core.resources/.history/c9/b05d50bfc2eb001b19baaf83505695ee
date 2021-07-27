@@ -1,0 +1,14 @@
+package assignment1.question1;
+
+public class Fibonacci {
+
+	public static void main(String[] args) {
+	int limit=20, c=1, p=0;
+	for(int i=1; i<limit; i++) {
+		c = c+ p;
+		System.out.print(c+" ");
+		p=c;
+	}
+	}
+
+}

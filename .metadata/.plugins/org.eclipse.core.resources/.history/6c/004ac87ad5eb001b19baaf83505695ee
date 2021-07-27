@@ -1,0 +1,14 @@
+package assignment1.question4;
+
+public class CopyArray {
+	
+	public static int[] copyOf(int[] array) {
+		return null;
+	}
+	
+	public static void main(String[] args) {
+		
+
+	}
+
+}

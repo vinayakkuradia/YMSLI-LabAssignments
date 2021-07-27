@@ -1,0 +1,37 @@
+package assignment2.question2;
+
+public class Book {
+
+	String bookTitle, author, ISBN;
+	int numOfCopies;
+	
+	public Book(String bookTitle, String author, String ISBN, int numOfCopies) {
+		this.bookTitle = bookTitle;
+		this.author = author;
+		this.ISBN = ISBN;
+		this.numOfCopies = numOfCopies;
+	}
+	
+	public void display() {
+		System.out.println(bookTitle+" - "+author+" - "+ISBN+" - "+numOfCopies);
+	}
+
+	
+	// Getters on demand
+	public String getBookTitle() {
+		return bookTitle;
+	}
+
+	public String getAuthor() {
+		return author;
+	}
+
+	public String getISBN() {
+		return ISBN;
+	}
+
+	public int getNumOfCopies() {
+		return numOfCopies;
+	}
+	
+}

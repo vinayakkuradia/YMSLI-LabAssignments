@@ -1,0 +1,17 @@
+package assignment2.question2;
+
+public class BookStoreApp {
+
+	public static void main(String[] args) {
+		BookStore bs = new BookStore();
+		
+		bs.books[0] = new Book("T1", "A1", "ISBN1", 2);
+		bs.books[1] = new Book("T2", "A2", "ISBN2", 2);
+		bs.books[2] = new Book("T3", "A3", "ISBN3", 2);
+		bs.books[3] = new Book("T4", "A4", "ISBN4", 2);
+		
+		bs.books[4].display();
+		System.out.println(bs.books.length);
+	}
+
+}
