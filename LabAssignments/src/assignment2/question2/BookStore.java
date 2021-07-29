@@ -37,8 +37,9 @@ public class BookStore {
 		return false;
 	}
 
-	public void order(String isbn, int noOfCopies) {
+	public void order(String isbn, int noOfCopies, Scanner sc) {
 		boolean isOrderComplete = false;
+		
 		if (bookArrayIndex >= 0)
 			for (int i = 0; i <= bookArrayIndex; i++) {
 				if (books[i].getISBN() == isbn) {
@@ -49,17 +50,15 @@ public class BookStore {
 			}
 
 		if (!isOrderComplete) {
-			Scanner sc = new Scanner(System.in);
-			String bookTitle, bookAuthor;
 			System.out.println("Enter Title of the Book: ");
-			bookTitle = sc.nextLine();
+			String bookTitle = sc.nextLine();
 			System.out.println("Enter Author name of the Book: ");
-			bookAuthor = sc.nextLine();
-			sc.close();
+			String bookAuthor = sc.nextLine();
 			Book book = new Book(bookTitle, bookAuthor, isbn, noOfCopies);
 			if (addBook(book))
 				isOrderComplete = true;
 		}
+		
 		if (isOrderComplete)
 			System.out.println("Book ordered successfully");
 		else
