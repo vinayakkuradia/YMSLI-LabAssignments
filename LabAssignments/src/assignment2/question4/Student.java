@@ -33,11 +33,11 @@ public class Student {
 		if(!getName().equals(null))
 			System.out.print(" Name: "+getName()+" ");
 		if(getGrade()>0)
-			System.out.print(" Grade: "+getGrade()+"\n");
+			System.out.println(" Grade: "+getGrade());
 	}
 	
 	void display(int year) {
 		display();
-		System.out.print("Year: "+year);
+		System.out.println(" Year: "+year);
 	}
 }

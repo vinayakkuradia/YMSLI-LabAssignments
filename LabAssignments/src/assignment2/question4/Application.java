@@ -60,8 +60,13 @@ public class Application {
 		}
 		
 		if(available) {
+			System.out.println("Enter the year (Enter 0 to skip):");
+			int year = sc.nextInt();
 			
-			studentArray[i].display();
+			if(year==0) 
+				studentArray[i].display();
+			else
+				studentArray[i].display(year);
 		}
 		else
 			System.out.println("No records found!");
@@ -75,7 +80,7 @@ public class Application {
 			else if(selection==2) {
 				displayStudentsList(sc);
 			}
-			else if(selection==3) 
+			else if(selection==0) 
 				run=false;
 			else 
 				System.out.println("Wrong input!");
@@ -84,7 +89,7 @@ public class Application {
 	public static void main(String[] args) {
 		
 		while(run) {
-			System.out.println("Please select an option:\n1.Create Student Profile   2.Display Student Info   3.Exit");
+			System.out.println("Please select an option:\n1.Create Student Profile   2.Display Student Info   0.Exit");
 			int selection = sc.nextInt();
 			selectionProcessor(selection, sc);
 		}
