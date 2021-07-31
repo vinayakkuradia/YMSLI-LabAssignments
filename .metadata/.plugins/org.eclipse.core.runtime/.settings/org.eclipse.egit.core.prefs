@@ -1,4 +1,5 @@
-GitRepositoriesView.GitDirectories=C\:\\VinDrive\\Technical Training\\Class Codes\\.git;
-GitRepositoriesView.GitDirectories.relative=C\:\\VinDrive\\Technical Training\\Class Codes\\.git;
+GitRepositoriesView.GitDirectories=C\:\\Users\\ve00ym264\\OneDrive - YAMAHA MOTOR CO., LTD\\Codespace\\.git;C\:\\VinDrive\\Technical Training\\Class Codes\\.git;
+GitRepositoriesView.GitDirectories.relative=.git;C\:\\VinDrive\\Technical Training\\Class Codes\\.git;
 core_autoIgnoreDerivedResources=false
+core_autoShareProjects=false
 eclipse.preferences.version=1
