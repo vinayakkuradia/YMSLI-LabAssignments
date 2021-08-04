@@ -1,0 +1,4 @@
+Hello welcome to Java
+This is a sample file
+We are printing file data
+along with line count
