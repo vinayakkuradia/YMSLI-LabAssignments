@@ -2,13 +2,20 @@
 <qualifiedTypeNameHistroy>
     <fullyQualifiedTypeName name="com.sun.java_cup.internal.runtime.Scanner"/>
     <fullyQualifiedTypeName name="java.lang.String"/>
-    <fullyQualifiedTypeName name="java.util.Scanner"/>
     <fullyQualifiedTypeName name="java.lang.reflect.AnnotatedElement"/>
     <fullyQualifiedTypeName name="java.io.Serializable"/>
     <fullyQualifiedTypeName name="java.io.ObjectOutputStream"/>
     <fullyQualifiedTypeName name="java.util.StringTokenizer"/>
     <fullyQualifiedTypeName name="java.io.ObjectStreamField"/>
     <fullyQualifiedTypeName name="java.io.ObjectInputStream"/>
-    <fullyQualifiedTypeName name="java.io.BufferedReader"/>
     <fullyQualifiedTypeName name="java.io.FileReader"/>
+    <fullyQualifiedTypeName name="java.io.BufferedReader"/>
+    <fullyQualifiedTypeName name="java.io.BufferedInputStream"/>
+    <fullyQualifiedTypeName name="java.io.CharArrayReader"/>
+    <fullyQualifiedTypeName name="java.io.InputStreamReader"/>
+    <fullyQualifiedTypeName name="java.io.OutputStreamWriter"/>
+    <fullyQualifiedTypeName name="java.io.FileOutputStream"/>
+    <fullyQualifiedTypeName name="java.io.BufferedWriter"/>
+    <fullyQualifiedTypeName name="java.io.FileWriter"/>
+    <fullyQualifiedTypeName name="java.util.Scanner"/>
 </qualifiedTypeNameHistroy>
