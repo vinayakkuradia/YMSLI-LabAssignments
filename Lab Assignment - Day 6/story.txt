@@ -1,0 +1,2 @@
+life is full of fun life is full of fun life is full of fun life
+This is a sample file for word frequency counting
