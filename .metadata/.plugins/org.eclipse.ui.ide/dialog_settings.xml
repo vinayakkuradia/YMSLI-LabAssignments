@@ -2,6 +2,7 @@
 <section name="Workbench">
 	<list key="installedFeatures">
 		<item value="com.ianbrandt.tools.m2e.mdp.feature:0.0.4.201409291703"/>
+		<item value="de.anbos.eclipse.easyshell.feature:2.2.1.v20210716-0745"/>
 		<item value="net.mihai-nita.ansicon:1.4.4.202102080044"/>
 		<item value="org.eclipse.buildship:3.1.5.v20210113-0929"/>
 		<item value="org.eclipse.egit.gitflow.feature:5.12.0.202106070339-r"/>
@@ -25,14 +26,19 @@
 		<item value="org.eclipse.pde:3.14.800.v20210611-1636"/>
 		<item value="org.eclipse.platform:4.20.0.v20210611-1600"/>
 		<item value="org.eclipse.rcp:4.20.0.v20210611-1600"/>
-		<item value="org.eclipse.tm.terminal.connector.ssh.feature:10.3.0.202104042017"/>
-		<item value="org.eclipse.tm.terminal.control.feature:10.3.0.202105240049"/>
-		<item value="org.eclipse.tm.terminal.feature:10.3.0.202104042017"/>
-		<item value="org.eclipse.tm.terminal.view.feature:10.3.0.202105240430"/>
+		<item value="org.eclipse.tm.terminal.connector.ssh.feature:10.3.2.202107241749"/>
+		<item value="org.eclipse.tm.terminal.control.feature:10.3.2.202107241749"/>
+		<item value="org.eclipse.tm.terminal.feature:10.3.2.202107241749"/>
+		<item value="org.eclipse.tm.terminal.view.feature:10.3.2.202107241749"/>
 		<item value="org.eclipse.userstorage:1.2.0.v20210517-0327"/>
 		<item value="org.eclipse.wst.common.fproj:3.7.3.v202007142017"/>
 		<item value="org.jboss.tools.m2e.wro4j.feature:1.1.0.201406251020"/>
 		<item value="org.jboss.tools.maven.apt.feature:1.5.2.201812241535"/>
+		<item value="org.sf.feeling.decompiler.cfr:3.2.2"/>
+		<item value="org.sf.feeling.decompiler.jad:3.2.2"/>
+		<item value="org.sf.feeling.decompiler.jd:3.2.2"/>
+		<item value="org.sf.feeling.decompiler.procyon:3.2.2"/>
+		<item value="org.sf.feeling.decompiler:3.2.2"/>
 		<item value="org.sonatype.m2e.buildhelper.feature:0.15.0.201207090124"/>
 		<item value="org.sonatype.m2e.egit.feature:0.15.1.201806191431"/>
 		<item value="org.sonatype.m2e.mavenarchiver.feature:0.17.5.202002191804"/>
@@ -43,6 +49,8 @@
 		<item key="SmartImportRootWizardPage.STORE_NESTED_PROJECTS" value="true"/>
 		<item key="SmartImportRootWizardPage.STORE_CONFIGURE_NATURES" value="true"/>
 		<list key="org.eclipse.ui.internal.wizards.datatransfer.SmartImportRootWizardPage.knownSources">
+			<item value="C:\Users\ve00ym264\OneDrive - YAMAHA MOTOR CO., LTD\Codespace\java8training-day2"/>
+			<item value="C:\Users\ve00ym264\OneDrive - YAMAHA MOTOR CO., LTD\Codespace\java8training-day1"/>
 			<item value="C:\Users\ve00ym264\OneDrive - YAMAHA MOTOR CO., LTD\Codespace"/>
 			<item value="C:\VinDrive\Technical Training\Class Codes\core"/>
 		</list>
