@@ -26,31 +26,31 @@ public class Customer {
 		this.dob = dob;
 	}
 	
-	int getId() {
+	public int getId() {
 		return id;
 	}
 	void setId(int id) {
 		this.id = id;
 	}
-	String getName() {
+	public String getName() {
 		return name;
 	}
 	void setName(String name) {
 		this.name = name;
 	}
-	String getAddress() {
+	public String getAddress() {
 		return address;
 	}
 	void setAddress(String address) {
 		this.address = address;
 	}
-	String getPhonenumber() {
+	public String getPhonenumber() {
 		return phonenumber;
 	}
 	void setPhonenumber(String phonenumber) {
 		this.phonenumber = phonenumber;
 	}
-	Date getDob() {
+	public Date getDob() {
 		return dob;
 	}
 	void setDob(Date dob) {

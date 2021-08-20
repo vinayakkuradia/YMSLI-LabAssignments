@@ -17,7 +17,7 @@ public class CustomerDaoImpl implements CutomerDao {
 
 	private static final String INSERT_INTO_CUSTOMER = "insert into Customer (Name, Address, PhoneNumber, DOB) values (?, ?, ?, ?)";
 	static final String ROWS_AFFECTED = " rows affected.";
-	static final String WHERE_CUST_ID = " where CustID=?";
+	static final String WHERE_CUST_ID = " where Id=?";
 	static final String SELECT_FROM_CUSTOMER = "select * from Customer";
 
 	private Connection connectionToDB;
@@ -34,11 +34,11 @@ public class CustomerDaoImpl implements CutomerDao {
 			insertStatement.setString(1, customer.getName());
 			insertStatement.setString(2, customer.getAddress());
 			insertStatement.setString(3, customer.getPhonenumber());
-			insertStatement.setDate(4, (Date) customer.getDob());
+			insertStatement.setDate(4, new Date(customer.getDob().getTime()));
 			insertStatement.executeUpdate();
 			int noOfRowsAffected = insertStatement.getUpdateCount();
 			System.out.println(noOfRowsAffected + ROWS_AFFECTED);
-			int id = insertStatement.getGeneratedKeys().getInt(0);
+			int id = insertStatement.getGeneratedKeys().getInt("Id");
 			customer.setId(id);
 		} catch (SQLException e) {
 			e.printStackTrace();
@@ -54,6 +54,7 @@ public class CustomerDaoImpl implements CutomerDao {
 		try {
 			PreparedStatement selectByIdStatement = connectionToDB
 					.prepareStatement(SELECT_FROM_CUSTOMER + WHERE_CUST_ID);
+			selectByIdStatement.setInt(1, id);
 			ResultSet obtainedResultSet = selectByIdStatement.executeQuery();
 
 			obtainedResultSet.next();
