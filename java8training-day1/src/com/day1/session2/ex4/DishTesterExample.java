@@ -1,7 +1,8 @@
 package com.day1.session2.ex4;
 
-import java.util.*;
-import java.util.stream.Collectors;
+import java.util.Arrays;
+import java.util.Comparator;
+import java.util.List;
 
 public class DishTesterExample {
 	
@@ -9,7 +10,7 @@ public class DishTesterExample {
 		List<Dish> allDishes=getAllDishes();
 		//Return the names of dishes that are low in calories (<400),
 		//Sorted by number of calories
-		
+		allDishes.stream().filter(d->d.getCalories()<400).sorted(Comparator.comparing(Dish::getCalories)).forEach(System.out::println);
 	}
 	
 

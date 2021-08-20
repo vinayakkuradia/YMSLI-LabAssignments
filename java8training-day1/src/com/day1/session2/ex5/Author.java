@@ -1,5 +1,5 @@
 package com.day1.session2.ex5;
-class Author {
+class Author implements Comparable<Author> {
 	private String name;
 	private String lastname;
 	private String country;
@@ -35,6 +35,14 @@ class Author {
 	public String toString() {
 		return "Author [name=" + name + ", lastname=" + lastname + ", country="
 				+ country + "]";
+	}
+	@Override
+	public int compareTo(Author o) {
+		if(getName().equals(o.getName()))
+			if(getLastname().equals(o.getLastname()))
+				if(getCountry().equals(o.getCountry()))
+					return 0;
+		return 1;
 	}
 	
 	
