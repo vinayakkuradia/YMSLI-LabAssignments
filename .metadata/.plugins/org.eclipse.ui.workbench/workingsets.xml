@@ -34,6 +34,7 @@
 </workingSet>
 <workingSet editPageId="org.eclipse.jdt.ui.JavaWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1628942416019_8" label="Lab Exams" name="Lab Exams">
 <item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/Lab Exam - 1" type="4"/>
+<item elementID="=Lab Exam - 2" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
 </workingSet>
 <workingSet editPageId="org.eclipse.jdt.ui.JavaWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1628942467387_9" label="Excercises" name="Excercises">
 <item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/java8training-day1" type="4"/>

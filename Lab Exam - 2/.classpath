@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="question2"/>
+	<classpathentry kind="src" path="question1"/>
+	<classpathentry kind="src" path="question3"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-16">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/ve00ym264/OneDrive - YAMAHA MOTOR CO., LTD/Codespace/Lab Exam - 2/mysql-connector-java-5.1.6.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
