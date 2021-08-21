@@ -2,6 +2,7 @@ package question1;
 
 import java.io.Serializable;
 
+
 public class Singleton implements Cloneable, Serializable {
 	
 	// Giving a serial version UID
@@ -19,7 +20,7 @@ public class Singleton implements Cloneable, Serializable {
 	
 	// Making instance creation Thread-safe
 	private static class InstanceHolder {
-		private static Singleton singletonInstance;
+		private static Singleton singletonInstance = new Singleton();
 	}
 
 	public static Singleton getInstance() {
